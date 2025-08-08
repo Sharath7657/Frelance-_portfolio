@@ -1,0 +1,369 @@
+body{
+    background-color: rgb(12, 2, 57);
+    background-position: fixed;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left:5rem ;
+    padding: 2rem;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(12, 2, 57);
+}
+.child1{
+    color: white;
+     font-size: 30px;
+     padding-left: 3.5em;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.child2 a{
+    color: white; 
+    text-decoration: none; 
+    padding-right: 3rem;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.child2 a:hover{
+    color: aqua;
+}
+.child2{
+    padding-right: 5rem;
+}
+.Home{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+     border: none;
+     overflow-y: hidden;
+     height: 87.5vh;
+}
+.home1{
+    color: white;
+    padding-left: 13em;
+    padding-top: 6rem;
+}
+.home1 h3{
+    font-size: 2rem;
+    margin: 0px;
+}
+.home1 h2{
+    font-size: 2.6rem;
+    line-height: 1em;
+}
+.home1 p{
+    font-size: 1.5rem;
+
+    line-height: 2em;
+}
+.istyle{
+    font-size: 3em;
+    margin-right: 1em;
+    color: white;
+
+}
+.c1{
+    margin-bottom: 1px;
+
+}
+.c1 span{
+  color: aqua;
+  background-color: rgb(12, 2, 57);
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  animation: typing 2.5s steps(18) forwards, blink 0.7s step-end infinite;
+
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 18ch } 
+}
+
+.home1 button,.about2 button{
+    background-color: aqua;
+    display: block;
+    color: white;
+    border-radius: 2em;
+    width: 10em;
+    margin-top: 2rem;
+    font-size: 2em;
+    padding: 0.7em;
+    border: 0px;
+    box-shadow: 0 0 10px 10px #162394ad;
+
+
+}
+.istyle:hover{
+    box-shadow: 0 0 10px 10px #021bfa;
+}
+.home1 button:hover{
+    box-shadow: 0 0 10px 10px #021bfa;
+
+}
+.about2 button:hover{
+    box-shadow: 0 0 10px 10px #021bfa;
+
+}
+.home2 img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 1px aqua;
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+    
+}
+@keyframes bounce{
+    from{
+        width: 15rem;
+    }
+    to{
+        transform: translateY(5vh);
+    
+    }
+}
+.home2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.About{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 1rem;
+    border: none;
+    overflow-y: hidden;
+     height: 87.2vh;
+}
+.about1 img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1em;
+    box-shadow: 0 0 5px 3px aqua;
+}
+.about1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 9em;
+    padding-top: 12em;
+    padding-left: 8em; 
+}
+.about2{
+    color: white;
+    padding-top: 12em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.about2 h2{
+    font-size: 2.5em;
+}
+.about2 b{
+    color: aqua;
+}
+.about2 h3{
+    font-size: 2em;
+}
+.about2 p{
+    line-height: 2em;
+    font-size: 1.7em;
+}
+.Services h1{
+    padding-top: 1em;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 2em;
+
+}
+.Services b{
+    color: aqua;
+}
+.Services{
+     border: none;
+     overflow-y: hidden;
+     height: 87.7vh;
+}
+.service{
+    margin-top: 10em;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-items: center; 
+    padding: 2em; 
+    
+}
+.service1 i{
+    color: aqua;
+    font-size: 3em;
+}
+.service1{
+    color: white;
+    text-align: center;
+    width: 15em;
+    line-height: 1.5em;
+    background-color: rgba(37, 21, 110, 0.356);
+    padding: 2em;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+}
+.service1:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    border: 0.5px aqua solid;
+
+}
+.service1 button{
+    background-color: aqua;
+    color: blue;
+    border-radius: 2em;
+    width: 10em;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    box-shadow: 0 0 10px 8px #162394ad;
+    margin-top: auto;
+}
+.service1 button:hover{
+    box-shadow: 0 0 10px 8px #021bfa;
+
+}
+
+.Skills h1{
+    color: white;
+    text-align: center;
+    padding-top: 1.7em;
+    font-size: 3em;
+    margin-bottom: 5em;
+}
+.Skills{
+     border:none;
+     overflow-y: hidden;
+     height: 87.5vh;
+}
+.Skills b{
+    color: aqua;
+}
+.skill1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.skill2{
+    height: 1em;
+    background-color: white;
+    border-radius: 5em;
+
+
+}
+.skill21{
+    background-color: aqua;
+    height: 1em;
+    border-radius: 1em;
+
+}
+
+.Skills{
+    padding: 0 12em;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 2em;
+}
+
+
+
+.Contact h1{
+    padding-top: 1em;
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+.Contact{
+    overflow-y: hidden;
+    border:none;
+     height: 87.5vh;
+}
+.Contact b{
+    color: aqua;
+}
+.contact1{
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 0.5em;
+    row-gap: 1em;
+    padding-left: 25em;
+    padding-right: 25em;
+    
+}
+.contact1 input{
+    height: 4em;
+    border-radius: 1em;
+    padding-left: 0.5em;
+    background-color: rgba(44, 68, 75, 0.556);
+    border: none;
+}
+.contact1 .msg{
+    height: 8em;
+    grid-column: 1/3;
+    border-radius: 1em;
+    font-size: 1em;
+    padding: 1em;
+    font-family: 'Times New Roman';
+    background-color: rgba(44, 68, 75, 0.556);
+    resize: none;
+    border: none;
+}
+.button1{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+}
+.button1 button{
+    background-color: aqua;
+    color: blue;
+    border-radius: 2em;
+    width: 10em;
+    font-size: 1em;
+    padding: 1em;
+    border: none;
+    box-shadow: 0 0 10px 8px #162394ad;
+    margin-top: auto;
+}
+.button1 button:hover{
+    box-shadow: 0 0 10px 8px #0a1cbad4;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(44, 68, 75, 0.556);
+    margin-top: 2em;
+    font-size: 2em;
+}
+.footer1 a{
+    color: aqua;
+    font-size: 2em;
+    padding-left: 7em;
+}
+
+root{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
